@@ -1,0 +1,14 @@
+[
+    {
+        "address": "0x1234...",
+        "amount": 100.5
+    },
+    {
+        "address": "0x5678...",
+        "amount": 50.75
+    },
+    {
+        "address": "0xabcd...",
+        "amount": "25.25"
+    }
+]

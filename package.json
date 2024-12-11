@@ -1,0 +1,40 @@
+{
+  "name": "simple-bot-dswap-erc20",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn install",
+    "start:bot": "node bot/trading-bot.js",
+    "generate:wallets": "node scripts/generate-wallets.js",
+    "monitor": "node scripts/monitor.js",
+    "lint": "prettier --write '**/*.{js,json,sol}'"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.3",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.7",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "@types/mocha": "^9.1.1",
+    "chai": "^4.5.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.22.9",
+    "hardhat-gas-reporter": "^1.0.9",
+    "prettier": "^2.8.3",
+    "prettier-plugin-solidity": "^1.1.1",
+    "sinon": "^18.0.0",
+    "solidity-coverage": "^0.7.22",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "winston": "^3.17.0"
+  }
+}
